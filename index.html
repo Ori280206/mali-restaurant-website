@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MALI - Thai Cuisine | Tel Aviv-Yafo</title>
+    <meta name="description" content="Experience authentic Thai cuisine at MALI in Nahalat Binyamin, Tel Aviv. Award-winning flavors in an elegant setting.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sticky Navigation -->
+    <nav class="navbar sticky-nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <svg class="logo" viewBox="0 0 100 40" xmlns="http://www.w3.org/2000/svg">
+                    <text x="10" y="30" font-family="Cormorant Garamond, serif" font-size="32" font-weight="700" fill="#1a5f5f">mali</text>
+                </svg>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#pricing" class="nav-link">Events</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link cta-link">Reserve</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">MALI</h1>
+                <p class="hero-subtitle">Thai Cuisine</p>
+                <p class="hero-description">Experience authentic Thai flavors in the heart of Tel Aviv's most vibrant cultural neighborhood</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Reserve a Table</a>
+                    <a href="#menu" class="btn btn-secondary">Explore Menu</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="400" height="300" fill="#f5f1e8"/>
+                        <text x="200" y="150" text-anchor="middle" font-family="Poppins" font-size="24" fill="#1a5f5f" opacity="0.5">Thai Culinary Experience</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll to explore</span>
+            <div class="scroll-icon">
+                <div class="scroll-wheel"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About MALI</h2>
+                <p class="section-subtitle">Where tradition meets contemporary elegance</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to MALI, where authentic Thai cuisine meets contemporary elegance. Located on the charming Nahalat Binyamin Street, we invite you to embark on a culinary journey through Thailand's vibrant flavors.</p>
+                    <p>Our award-winning chefs craft each dish with precision, using the finest ingredients imported directly from Thailand. From fragrant curries to delicate stir-fries, every plate tells a story of tradition and passion.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <span class="feature-icon">🏆</span>
+                            <h4>Award-Winning</h4>
+                            <p>Recognized for culinary excellence</p>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🌿</span>
+                            <h4>Premium Ingredients</h4>
+                            <p>Sourced directly from Thailand</p>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">👨‍🍳</span>
+                            <h4>Expert Chefs</h4>
+                            <p>Decades of culinary expertise</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <svg viewBox="0 0 300 350" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="350" fill="#f5f1e8"/>
+                            <text x="150" y="175" text-anchor="middle" font-family="Poppins" font-size="20" fill="#1a5f5f" opacity="0.5">Restaurant Interior</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Features Grid -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Signature Dishes</h2>
+                <p class="section-subtitle">Handcrafted masterpieces from Thailand's finest traditions</p>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-icon">🍛</div>
+                    <h3>Authentic Curries</h3>
+                    <p>Red, Green, Yellow, and Massaman curries prepared with traditional recipes and the finest Thai spices.</p>
+                    <a href="#contact" class="menu-cta">Learn More</a>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-icon">🍜</div>
+                    <h3>Noodle Perfection</h3>
+                    <p>Pad Thai, Drunken Noodles, and specialty noodle dishes that showcase bold, balanced flavors.</p>
+                    <a href="#contact" class="menu-cta">Learn More</a>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-icon">🥘</div>
+                    <h3>Stir-Fry Wonders</h3>
+                    <p>Fresh vegetables and premium proteins in perfectly balanced wok-cooked dishes.</p>
+                    <a href="#contact" class="menu-cta">Learn More</a>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-icon">🍤</div>
+                    <h3>Seafood Specialties</h3>
+                    <p>Fresh fish and shrimp prepared in traditional Thai style with aromatic herbs and spices.</p>
+                    <a href="#contact" class="menu-cta">Learn More</a>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-icon">🥗</div>
+                    <h3>Fresh Salads</h3>
+                    <p>Vibrant salads with lime-based dressings and fresh herbs that awaken the palate.</p>
+                    <a href="#contact" class="menu-cta">Learn More</a>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-icon">🍶</div>
+                    <h3>Beverages & Desserts</h3>
+                    <p>Thai iced tea, tropical drinks, and traditional desserts to complete your dining experience.</p>
+                    <a href="#contact" class="menu-cta">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing / Events Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience MALI</h2>
+                <p class="section-subtitle">Choose the perfect dining experience</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Walk-In Dining</h3>
+                        <p class="pricing-tag">Casual Experience</p>
+                    </div>
+                    <div class="pricing-content">
+                        <ul class="pricing-features">
+                            <li>✓ Flexible timing</li>
+                            <li>✓ Menu variety</li>
+                            <li>✓ Comfortable seating</li>
+                            <li>✓ Full bar service</li>
+                        </ul>
+                        <p class="pricing-note">Depending on availability</p>
+                    </div>
+                    <a href="#contact" class="btn btn-secondary full-width">Book Now</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Reserved Table</h3>
+                        <p class="pricing-tag">Premium Experience</p>
+                    </div>
+                    <div class="pricing-content">
+                        <ul class="pricing-features">
+                            <li>✓ Guaranteed seating</li>
+                            <li>✓ Special preparation</li>
+                            <li>✓ Personal service</li>
+                            <li>✓ Wine pairing options</li>
+                        </ul>
+                        <p class="pricing-highlight">Recommended for groups</p>
+                    </div>
+                    <a href="#contact" class="btn btn-primary full-width">Reserve Table</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Private Events</h3>
+                        <p class="pricing-tag">Exclusive Occasions</p>
+                    </div>
+                    <div class="pricing-content">
+                        <ul class="pricing-features">
+                            <li>✓ Custom menu</li>
+                            <li>✓ Private space</li>
+                            <li>✓ Full catering</li>
+                            <li>✓ Event coordination</li>
+                        </ul>
+                        <p class="pricing-note">Available upon inquiry</p>
+                    </div>
+                    <a href="#contact" class="btn btn-secondary full-width">Inquire</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Guest Reviews</h2>
+                <p class="section-subtitle">What our guests are saying about MALI</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"An absolutely incredible dining experience. The flavors are authentic and beautifully balanced. Every dish was prepared with such care and attention to detail."</p>
+                    <div class="testimonial-author">
+                        <strong>Sarah Cohen</strong>
+                        <span>Tel Aviv</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"MALI has become our go-to restaurant. The chefs really know their craft, and the atmosphere in Nahalat Binyamin adds to the charm. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <strong>David Ben-Zvi</strong>
+                        <span>Food Critic</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"The Massaman curry was divine, and the service was impeccable. We celebrated our anniversary here and it was absolutely perfect. Will definitely return!"</p>
+                    <div class="testimonial-author">
+                        <strong>Rachel & Michael</strong>
+                        <span>Ramat Hasharon</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Fresh ingredients, authentic flavors, and genuine Thai hospitality. This is what fine dining should be. Bravo to the entire team!"</p>
+                    <div class="testimonial-author">
+                        <strong>Prof. Avi Levin</strong>
+                        <span>Jerusalem</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"The pad thai is arguably the best I've had outside of Bangkok. The attention to detail in every aspect of the meal is remarkable."</p>
+                    <div class="testimonial-author">
+                        <strong>Nina Rosenberg</strong>
+                        <span>Food Blogger</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"We hosted our corporate event at MALI and it was seamless. The staff went above and beyond, and the food was absolutely outstanding!"</p>
+                    <div class="testimonial-author">
+                        <strong>Yossi Katz</strong>
+                        <span>Event Organizer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Email Signup Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">Visit MALI</h2>
+                    <p class="section-subtitle">Reserve your table or inquire about private events</p>
+                    
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <h4>📍 Location</h4>
+                            <p>Nahalat Binyamin St, 80<br>Tel Aviv-Yafo, Israel</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>📞 Phone</h4>
+                            <p><a href="tel:+972123456789">+972 (0) 123-456-789</a></p>
+                        </div>
+                        <div class="info-item">
+                            <h4>⏰ Hours</h4>
+                            <p>Sun-Thu: 12-23:00<br>Fri-Sat: 12-00:00</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>📧 Email</h4>
+                            <p><a href="mailto:info@mali-restaurant.com">info@mali-restaurant.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-icon" title="Instagram">📷</a>
+                        <a href="#" class="social-icon" title="Facebook">👍</a>
+                        <a href="#" class="social-icon" title="TripAdvisor">✈️</a>
+                    </div>
+                </div>
+
+                <div class="newsletter-signup">
+                    <h3>Join Our Community</h3>
+                    <p>Get exclusive offers, menu updates, and event invitations</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Phone (Optional)">
+                        </div>
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="preferences" checked>
+                            <label for="preferences">I'd like to receive special offers and menu updates</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">Subscribe Now</button>
+                    </form>
+                    <p class="form-note">We respect your privacy. Unsubscribe anytime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Find Us</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3383.5937098267!2d34.7606!3d32.0853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4b9c8d9c8d9d%3A0x0!2sNahalat%20Binyamin%2080%2C%20Tel%20Aviv-Yafo!5e0!3m2!1sen!2sil!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MALI</h3>
+                    <p>Authentic Thai Cuisine<br>Nahalat Binyamin, Tel Aviv</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#pricing">Events</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MALI Thai Cuisine. All rights reserved.</p>
+                <p>📍 Nahalat Binyamin St, 80 | Tel Aviv-Yafo</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
